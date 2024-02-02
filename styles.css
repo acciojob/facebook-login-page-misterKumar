@@ -1,1 +1,46 @@
 /*  your css code here. If applicable */
+
+.container{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	background-color:#f6f6f6;
+	gap:auto;
+}
+.second{
+	background-color:green;
+	color:white;
+	margin-left:30px;
+	margin-right:30px;
+	margin-bottom:5px;
+	
+}
+.line-2{
+	
+}
+h1{
+	color:blue;
+}
+.signup{
+	background-color:white;
+	border-radius:10px;
+}
+form{
+	display:flex;
+	flex-direction:column;
+	gap:5px;
+}
+img{
+	height:100px;
+}
+.first{
+	background-color:blue;
+	color:white;
+}
+p{text-align:center;
+	color:blue;
+	background:transparent;
+	border-bottom:1px solid gray;
+  margin-top:5px;
+  margin-bottom:5px;
+}
