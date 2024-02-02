@@ -1,51 +1,72 @@
-/*  your css code here. If applicable */
-.main{
+body{
+	background:#f6f6f6;
+	font-family:sans-serif;
+	font-size:16px;
+	box-sizing: border-box;
+}
+.container{
 	display:flex;
-	background-color:#F6F6F6;
 	justify-content:space-around;
-	align-items:center;
-	height:600px;
-	width:600px;
-
-}
-.left img{
-	align-items:center;
-	padding:60px;
-}
-h1{
-	color:#1A77F2;
-}
-p{
-	font-type:bold;
-	
-}
-.signup{
-	width:150px;
-	height:150px;
-	background-color:white;
-	border-shadow:2px 2px solid grey;
-	padding:60px;
-	display:flex;
-	flex-direction:column;
-	align-items:center;
-}
-#blue{
-	background-color:#1A77F2;
-	color:white;
-	width:180px;
-	margin:10px;
-	
-}
-#green{
-	background-color:seagreen;
-	color:white;
+	align-items: center;
+	margin:auto;
+	height:100vh;
 }
 a{
-	text-decoration:none;
+	text-decoration: none;
+	color:inherit;
 }
-#email{
-	margin:20px;
+.login p{
+	font-size:1em;
+	text-decoration: none;
+	text-align:center;
+	color:#1a77f2;
+	padding-bottom: 10px;
+	width:100%;
+	border-bottom: 1px solid black;
 }
-#password{
-	margin:10px;
+.left img{
+	width:350px;
+}
+.left>p{
+	margin:0;
+	font-weight: 600;
+	font-size:30px;
+	width:500px;
+}
+.login{
+	background:white;
+	box-shadow: 0px 0px 15px -2px grey;
+	border-radius: 5px;
+	padding:20px;
+	width: 350px;
+	display:flex;
+	flex-direction:column;
+	align-items: center;
+}
+input{
+	border: 2px solid #e6e6e6;
+	border-radius: 5px;
+	width:100%;
+	height: 30px;
+	margin-bottom:20px;
+}
+.login-btn{
+	width:100%;
+	background:#1a77f2;
+}
+.signup{
+	width:200px;
+	background:#43b72a;
+}
+button{
+	font-size: 1em;
+	color:white;
+	border-radius: 5px;
+	border: none;
+	height: 35px;
+	cursor:pointer;
+}
+::placeholder{
+	font-weight: 500;
+	padding-left: 10px;
 }
